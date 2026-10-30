@@ -1,0 +1,107 @@
+/* connet fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* basic setup */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+
+}
+button{
+    border: none;
+    background-color: var(--primarycolor);
+    color: var(--textcolor);
+    padding: 14px;
+    border-radius: 32px;
+}
+/* color variable */
+:root{
+    --primarycolor: #3377FC;
+    --secondarycolor: #101828;
+    --bordercolor: #F3F4F6;
+    --textcolor: #FFFFFF;
+    --textsecondcolor: #999B95;
+}
+/* hero style */
+.hero-container{
+    background-color: var(--secondarycolor);
+    padding: 100px;
+    color: var(--textcolor);
+    text-align: center;
+}
+.text-container h1{
+    font-size: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-container p{
+    font-size: 22px;
+    color: var(--textsecondcolor);
+    margin-top: 20px;
+    margin-bottom: 45px;
+
+}
+.text-container{
+    width: 60%;
+    margin: auto;
+}
+.icon-button{
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    gap: 5px;
+    font-size: 14px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28%;
+    margin: auto;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondarycolor);
+    color: var(--textsecondcolor);
+    padding: 90px;
+    font-size: 11px;
+}
+.menu-socialmedia{
+    display: inline-flex;
+}
+.menu-option{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+.menu-sign-in{
+    display: flex;
+    align-items: center;
+
+}
+.img-container img{
+    width: 750px;
+    border: 6px solid var(--bordercolor);
+    border-radius: 15px;
+}
+.img-container{
+    text-align: center;
+    background-color: var(--secondarycolor);
+    
+}
+.title{
+    text-align: center;
+    padding: 80px;
+    margin-top: 45px;
+    line-height: 45px;
+}
+.title h1{
+    font-size: 40px;
+}
+.title p{
+    font-size: 19px;
+    color: #5B6874;
+}
